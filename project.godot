@@ -8,6 +8,22 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "TileMap",
+"class": "Level",
+"language": "GDScript",
+"path": "res://addons/phonk/core/scripts/level.gd"
+}, {
+"base": "Object",
+"class": "LevelManager",
+"language": "GDScript",
+"path": "res://addons/phonk/core/scripts/managers/level_manager.gd"
+} ]
+_global_script_class_icons={
+"Level": "",
+"LevelManager": ""
+}
+
 [application]
 
 config/name="phonk"
