@@ -1,10 +1,8 @@
-# Top Down Framework
+# Phonk Framework
 ## Overview
 A base framework for top down game development
 A plugin for making simple top down video games in the multi-platform game engine [Godot Engine](https://godotengine.org/)
 
-## Contributors
-[@maikotui](https://www.twitter.com/maikotui)
 ## Core
 ### Worlds & Entities
 The base of this design is the world entity system. Worlds will update all entities whenever a world update occurs. This can be on a player trigger (for turn-based games) or using the Godot update calls. An entity could be a player, AI, or an in-world object.
